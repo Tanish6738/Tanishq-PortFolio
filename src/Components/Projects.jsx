@@ -5,28 +5,52 @@ import CircularGallery from '../Elements/CircularGallery'
 // Source data for projects (extend as needed)
 const projectData = [
   {
-    title: 'Project One',
-    description: 'Interactive 3D gallery built with WebGL (OGL) demonstrating smooth curved scrolling and performant shaders.',
-    image: 'https://picsum.photos/seed/project1/800/600',
-    video: 'https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4',
-    link: '#',
-    github: '#'
+    title: 'Civi-Sathi/NigamAi',
+    description: 'A Full-Stack Application for Citizens and Municipalities to have a proper communication and service platform.',
+    image: './Images/NigamAI.png',
+    video: './Videos/CivicSathi.mp4',
+    link: 'https://civic-sathi-v2.vercel.app/',
+    github: 'https://github.com/Tanish6738/Civic-Sathi'
   },
   {
-    title: 'Project Two',
-    description: 'Full‑stack application featuring authentication, real‑time updates, and responsive UI components.',
-    image: 'https://picsum.photos/seed/project2/800/600',
+    title: 'CodeArc',
+    description: 'A Powerful Ai powered Snippets management tools for developers to manage their commonly used code-block and files at one place with online code editor , code-convertor , doc generation , project management and more.',
+    image: './Images/CodeArc.png',
     video: 'https://storage.googleapis.com/coverr-main/mp4/Footboys.mp4',
-    link: '#',
-    github: '#'
+    link: 'https://snippets-frontend-pearl.vercel.app/',
+    github: 'https://github.com/Tanish6738/Snippets'
   },
   {
-    title: 'Project Three',
-    description: 'Data visualization dashboard with dynamic charts, dark mode, and accessibility first design.',
-    image: 'https://picsum.photos/seed/project3/800/600',
+    title: 'Dhruv Ai',
+    description: 'Lost & Found system built for crowded places like Maha Kumbh, malls, and stadiums.Users upload a photo of the missing person; the system matches it with found entries or stores it as missing. Automated email alerts are triggered for further updates. (Hackathon project, team-developed)',
+    image: './Images/DhruvAi.png',
     video: 'https://storage.googleapis.com/coverr-main/mp4/Night_Street.mp4',
-    link: '#',
-    github: '#'
+    link: 'https://dhruvai-2-0.vercel.app/',
+    github: 'https://github.com/Tanish6738/Sashakt_LostAndFound_INNOTHON2.0'
+  },
+  {
+    title: 'Securo',
+    description: 'L: A Privacy Guard web app offering 12-year breach history of your email with AI-powered analysis and visual charts. Features include a private vault, temp mail generator, public repo scanning for exposed APIs, and more',
+    image: './Images/Securo.png',
+    video: './Videos/Securo.mp4',
+    link: 'https://dhruvai-2-0.vercel.app/',
+    github: 'https://github.com/Tanish6738/Sashakt_LostAndFound_INNOTHON2.0'
+  },
+  {
+    title: 'Kai-APi',
+    description: 'An Api which is especially developer of the users and developer who want to check whether there is a compromised files and apis keys on the public repo of the user on github. ',
+    image: './Images/Kai-Api.png',
+    video: 'https://storage.googleapis.com/coverr-main/mp4/Night_Street.mp4',
+    link: 'https://kai-api-v0.onrender.com/',
+    github: 'https://github.com/Tanish6738/Kai-Api-v0'
+  },
+  {
+    title: 'DevStore',
+    description: 'DevStore is a developer-friendly web application for bookmarking, organizing, and sharing development tools, APIs, SaaS products, and resources. Built with Next.js 15, MongoDB, and Clerk authentication, it offers a streamlined way for developers to create personal collections, discover curated tools, and collaborate.',
+    image: './Images/DevStore.png',
+    video: './Videos/DevStore.mp4',
+    link: 'https://dev-store-v1.vercel.app/',
+    github: 'https://github.com/Tanish6738/DevStore'
   },
 ]
 
