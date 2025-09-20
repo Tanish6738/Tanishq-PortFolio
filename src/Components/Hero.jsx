@@ -11,10 +11,10 @@ const Hero = () => {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Tanish6738', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/tanishq-chouhan', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
-    { icon: Mail, href: 'mailto:tanishq@example.com', label: 'Email' }
+    { icon: Linkedin, href: 'https://linkedin.com/in/tanishqChouhan', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/TChouhan90608', label: 'Twitter' },
+    { icon: Instagram, href: 'https://www.instagram.com/tanishq_chouhan.dev?igsh=MWZ6MmlmbzhnYWh5cg==', label: 'Instagram' },
+    { icon: Mail, href: 'mailto:tanishq485@gmail.com', label: 'Email' }
   ]
 
   const navigationButtons = [
