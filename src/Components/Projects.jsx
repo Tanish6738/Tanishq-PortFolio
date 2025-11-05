@@ -21,6 +21,14 @@ const projectData = [
     github: 'https://github.com/Tanish6738/Snippets'
   },
   {
+    title: 'WorkShop',
+    description: 'A collaborative workspace for prompt craftsmanship. Create, version, audit, and remix prompts with provenance. A fluid developer UX blended with a sharing culture built for AI teams & creators.',
+    image: './Images/workshop.png',
+    video: 'https://storage.googleapis.com/coverr-main/mp4/Footboys.mp4',
+    link: 'https://workshop-app-v1-roan.vercel.app/',
+    github: 'https://github.com/Tanish6738/workshop'
+  },
+  {
     title: 'Dhruv Ai',
     description: 'Lost & Found system built for crowded places like Maha Kumbh, malls, and stadiums.Users upload a photo of the missing person; the system matches it with found entries or stores it as missing. Automated email alerts are triggered for further updates. (Hackathon project, team-developed)',
     image: './Images/DhruvAi.png',

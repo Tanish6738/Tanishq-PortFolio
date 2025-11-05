@@ -1,7 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react'
+import { Github, Linkedin, Twitter, Instagram, Mail, Download } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
+import Resume from '../assets/Resume.pdf'
 // import Slider from '../Elements/Slider'
 // import XO from '../Elements/XO'
 // import Loader1 from '../Elements/Loader1'
@@ -112,6 +113,19 @@ const Hero = () => {
         >
           Full Stack Developer & Creative Designer
         </motion.p>
+
+        {/* Download Resume Button */}
+        <motion.a
+          href={Resume}
+          download="Tanishq_Chouhan_Resume.pdf"
+          variants={popIn}
+          whileHover={{ scale: 1.05, y: -2 }}
+          whileTap={{ scale: 0.95 }}
+          className='mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-orange-600 via-orange-500 to-amber-400 text-white font-semibold text-sm tracking-wide shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-orange-500/70'
+        >
+          <Download size={18} />
+          <span>Download Resume</span>
+        </motion.a>
 
         {/* Mobile navigation buttons inline */}
         <div className='mt-8 flex md:hidden flex-wrap justify-center gap-4 px-2'>
